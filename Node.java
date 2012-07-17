@@ -11,6 +11,7 @@ public class Node {
 	private Node previous;
 	private Node nextDirectory;	//Zeiger auf Knoten der nächsten Ebene
 	private Node sameDirectory;	//Zeiger auf Knoten der selben Ebene
+	//evtl auch Hashtable
 	private Value values;	//Zeiger auf Values
 	
 	
