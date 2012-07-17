@@ -14,6 +14,7 @@ public class CommunicationServiceLocal extends Service{
 	//eine Hashtable mit Attributen enthält
 	//Dabei ist für den Index 0 immer der Name des Knotens gemeint
 	static Hashtable structure = new Hashtable();
+	//Hashtable für den Datentyp. 255 Werte reichen
 	static Hashtable datatype = new Hashtable();
 
 	private String getNodeName(byte [] path){
